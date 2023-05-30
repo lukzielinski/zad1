@@ -1,0 +1,40 @@
+{
+    "offers": [
+        {
+            "name": "Red dress M",
+            "price": "89.99",
+            "currency": "PLN",
+            "imgURL": "https://rekrutacja.webdeveloper.rtbhouse.net/files/offer1.jpg"
+        },
+        {
+            "name": "Twisted",
+            "price": "990.99",
+            "currency": "PLN",
+            "imgURL": "https://rekrutacja.webdeveloper.rtbhouse.net/files/offer2.jpg"
+        },
+        {
+            "name": "Circle Pendant White Gold-plated",
+            "price": "79",
+            "currency": "PLN",
+            "imgURL": "https://rekrutacja.webdeveloper.rtbhouse.net/files/offer3.jpg"
+        },
+        {
+            "name": "Women",
+            "price": "4000",
+            "currency": "PLN",
+            "imgURL": "https://rekrutacja.webdeveloper.rtbhouse.net/files/offer4.jpg"
+        },
+        {
+            "name": "T-shirt",
+            "price": "100.00",
+            "currency": "PLN",
+            "imgURL": "https://rekrutacja.webdeveloper.rtbhouse.net/files/offer5.jpg"
+        },
+        {
+            "name": "Adidas Neo W56-234",
+            "price": "129.50",
+            "currency": "PLN",
+            "imgURL": "https://rekrutacja.webdeveloper.rtbhouse.net/files/offer6.jpg"
+        }
+    ]
+}

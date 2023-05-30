@@ -1,0 +1,70 @@
+.display-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #d5d4d4;
+}
+.banner-container {
+  min-width: 300px;
+  min-height: 250px;
+  background-color: white;
+  display: grid;
+  grid-template-rows: 200px 50px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.logo-container {
+  margin: auto;
+  width: 100%;
+}
+.logo {
+  background-image: url(assetes/logo_rtb.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 10px;
+  width: 100%;
+}
+.offerts-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 2px;
+}
+.offert {
+  border: 1px solid rgba(72, 72, 72, 0.079);
+  margin: 1px;
+}
+.offert-element {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 80% 20%;
+  font-weight: bold;
+}
+.active {
+  border: 1px solid #ee9b0049;
+  transition: 0.5s;
+}
+.offert:hover {
+  border: 1px solid #ee9b0049;
+  transition: 0.5s;
+}
+.img {
+  margin: auto;
+  width: 50%;
+  height: 75px;
+}
+.price {
+  margin: auto;
+  font-size: 12px;
+}
