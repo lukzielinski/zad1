@@ -21,7 +21,7 @@ function getRandomElements(array, count) {
 function createOfferElement(offer, container) {
   const { price, currency, imgURL } = offer;
 
-  const div = document.createElement("div"); 
+  const div = document.createElement("div");
   div.classList.add("offert-element");
   const imgElement = document.createElement("img");
   const priceElement = document.createElement("span");
